@@ -14,6 +14,7 @@ function connect()
         echo 'Erreur ' . $e->getMessage();
     }
 }
+
 function user()
 {
     $bdd = connect();
@@ -22,7 +23,6 @@ function user()
     return $req->fetch();
      
 }
-
 
 function modele($title, $style)
 {

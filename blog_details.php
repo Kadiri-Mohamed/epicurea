@@ -21,9 +21,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['newcomment'])) {
     $username = isset($_SESSION['username']) ? $_SESSION['username'] : '';
     $req = $conn->prepare("INSERT INTO commentaires (id_blog, utilisateur, commentaire) VALUES (?, ?, ?)");
     $req->execute([$blog_id, $username, $comment]);
+    
 }
-?>
 
+?>
 <div class="container mt-3">
     <h1><?= $blog['title'] ?></h1>
     <div>

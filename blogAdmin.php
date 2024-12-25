@@ -33,7 +33,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         padding: 10px;
         font-family: 'Rubik', sans-serif;
     }
-
     input[type='submit'] {
         margin: 10px;
         background-color: #87A922;
@@ -44,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         font-family: 'Rubik', sans-serif;
     }
 
-    #btn1 {
+#btn1 {
         display: none;
     }
 </style>

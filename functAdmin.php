@@ -275,5 +275,8 @@ function modele($title)
         </section>
 
         <main>
+        </main>
 
-        <?php } ?>
+        <?php }
+
+?>
